@@ -38,13 +38,26 @@
 
 .digital_images{
   margin: 30px 0;
+  border:1px solid red;
+  display: flex;
+  justify-content: center;
 }
 
+.digital_images_colums{
+  border:0px solid blue;
+  width:40%;
+  padding:10px;
+}
 
+.digital_images_colums > img{
+  width: 100%;
+}
 
-
-
-
+.artworks_title{
+  text-align: left;
+  text-decoration: underline;
+  margin-top: 5px;
+}
 
 
 
