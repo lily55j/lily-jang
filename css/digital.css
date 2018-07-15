@@ -1,0 +1,57 @@
+/*body*/
+.top_body{
+  color: grey;
+  text-align: center;
+}
+
+/*nav*/
+.nav{
+  border:1px solid grey;
+  height:30px; 
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: grey;
+}
+.nav_ig{
+  width: 26px;
+  height: 26px;
+  padding: 0 25px 0 0 ;
+}
+.nav_menu{
+  width: 26px;
+  height: 20px;
+  padding: 0 15px 3px 0;
+}
+.nav_ig:hover {
+  opacity: 0.8;
+}
+
+/*body*/
+.digital_top{
+  text-align: left;
+  margin: 15px 50px;
+  font-size: 1.6rem;
+}
+
+.digital_images{
+  margin: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+/*bottom*/
+.top_bottom{
+  margin: 40px;
+}
+.top_copyright{
+  font-size: 0.68rem;
+}

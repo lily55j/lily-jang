@@ -1,0 +1,92 @@
+/*body*/
+.top_body{
+  color: grey;
+  text-align: center;
+}
+
+/*nav*/
+.nav{
+  border:1px solid grey;
+  height:30px; 
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: grey;
+}
+.nav_ig{
+  width: 26px;
+  height: 26px;
+  padding: 0 25px 0 0 ;
+}
+.nav_menu{
+  width: 26px;
+  height: 20px;
+  padding: 0 15px 3px 0;
+}
+.nav_ig:hover {
+  opacity: 0.8;
+}
+
+/*main*/
+.top_main{
+  margin: 40px 1px;
+}
+.top_artworks{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.top_visual{
+ /* border:1px solid grey;*/
+  width: 90%;
+  height: auto;
+}
+.top_other{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.top_acrylic{
+  font-size:1.7rem;
+  transform: rotate(-17deg);
+  padding:0 5px;
+}
+.top_digital{
+  font-size: 1.6rem;
+  transform: rotate(-5deg);
+}
+.top_love{
+  font-size: 1.5rem;
+  transform: rotate(13deg);
+}
+.top_profile {
+  font-size: 1.4rem;
+  padding: 0 45px;
+  transform: rotate(8deg);
+}
+.top_contact{
+  font-size: 1.4rem;
+  transform: rotate(-10deg);
+}
+
+
+
+/*bottom*/
+.top_bottom{
+  margin: 40px;
+}
+.top_language{
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: center;
+  padding: 30px ;
+  text-decoration-line: underline;
+}
+.top_language_type{
+  padding: 0 15px;
+}
+.top_copyright{
+  font-size: 0.68rem;
+}

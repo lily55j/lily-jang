@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <meta name="description" content="Lily Jang Official Werbsite">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=10.0, user-scalable=yes">
+  <meta name="keywords" content="">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body class="top_body">
+
+  <nav class="nav">
+    <div>Lily Jang</div>
+    <div class="nav_icons">
+      <img class="nav_ig" src="images/ig-color.png" alt="">
+      <img class="nav_menu" src="images/menu.png" alt="">
+    </div>
+  </nav>
+
+  <div class="top_contact">Contact</div>
+
+  <form class="form" action="" method="post" autocomplete="on">
+
+    <!-- name -->
+    <div class="form__field">
+      <div class="form__name">
+        <label for="name" class="form_text">Name
+          <span class="required">*</span>
+        </label>
+      </div>
+      <input type="text" class="box" name="name" id="name" required placeholder="Full name" />
+    </div>
+
+    <!-- email -->
+    <div class="form__field">
+      <div class="form__name">
+        <label for="email" class="form_text">Email
+          <span class="required">*</span>
+        </label>
+      </div>
+      <input type="email" class="box" name="email" id="email" required placeholder="@" />
+    </div>
+
+    <!-- purpose -->
+    <div class="form__field">
+      <div class="form__name">
+        <label for="purpose" class="form_text">Purpose</label>
+      </div>
+      <select id="purpose" class="box" name="purpose">
+        <option value="australia">Collaboration</option>
+        <option value="canada">Purchase an art</option>
+        <option value="usa">Other</option>
+      </select>
+    </div>
+
+    <!-- subject -->
+    <div class="form__field">
+      <div class="form__name">
+        <label for="subject" class="form_text">Subject
+          <span class="required">*</span>
+        </label>
+      </div>
+      <input type="text" class="box" name="subject" id="subject" required placeholder="" />
+    </div>
+
+    <!-- message -->
+    <div class="form__field">
+      <div class="form__name">
+        <label for="message" class="form_text">Message
+          <span class="required">*</span>
+        </label>
+      </div>
+
+      <textarea name="message" class="message" id="message" required="required" rows="10">
+        </textarea>
+
+    </div>
+
+    <div class="form__field">
+      <div class="form__name">
+        <div class="button_rapper">
+          <button class="button" type="confirm">Confirm</button>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <bottom class="top_bottom">
+    <div class="top_copyright">
+      Copyright © 2018 Lily Jang All Rights Reserved.
+    </div>
+  </bottom>
+
+</body>
+
+</html>
