@@ -15,10 +15,24 @@
   padding: 20px;
   color: grey;
 }
+
+.lilyjang{
+  cursor: pointer;
+  color: grey;
+}
+.lilyjang a{
+  text-decoration: none;
+}
+.lilyjang:hover {
+  opacity: 0.8;
+}
+
+
 .nav_ig{
   width: 26px;
   height: 26px;
   padding: 0 25px 0 0 ;
+  cursor: pointer;
 }
 .nav_menu{
   width: 26px;
@@ -31,7 +45,9 @@
 
 /*main*/
 .top_main{
-  margin: 40px 1px;
+  margin: 40px 10px;
+  border:1px solid gray;
+
 }
 .top_artworks{
   display: flex;
@@ -39,8 +55,8 @@
   margin-bottom: 10px;
 }
 .top_visual{
- /* border:1px solid grey;*/
-  width: 90%;
+ border:1px solid gray;
+  width: 80%;
   height: auto;
 }
 .top_other{
@@ -71,6 +87,60 @@
   transform: rotate(-10deg);
 }
 
+.top_acrylic > a{
+  text-decoration: none;
+  color: grey;
+}
+.top_digital > a{
+  text-decoration: none;
+  color: grey;
+}
+.top_love > a{
+  text-decoration: none;
+  color: grey;
+}
+.top_profile > a{
+  text-decoration: none;
+  color: grey;
+}
+.top_contact > a{
+  text-decoration: none;
+  color: grey;
+}
+
+
+.top_acrylic:hover {
+  opacity: 0.8;
+}
+.top_digital:hover {
+  opacity: 0.8;
+}
+.top_love:hover {
+  opacity: 0.8;
+}
+.top_profil:hover {
+  opacity: 0.8;
+}
+.top_contact:hover {
+  opacity: 0.8;
+}
+
+.top_acrylic {
+  cursor: pointer;
+}
+.top_digital {
+  cursor: pointer;
+}
+.top_love {
+  cursor: pointer;
+}
+.top_profile {
+  cursor: pointer;
+}
+.top_contact {
+  cursor: pointer;
+}
+
 
 
 /*bottom*/
@@ -82,11 +152,36 @@
   display: flex;
   justify-content: center;
   padding: 30px ;
+  margin: 0 15px;
   text-decoration-line: underline;
 }
-.top_language_type{
-  padding: 0 15px;
+
+.top_language_type_1:hover{
+  opacity: 0.8;
 }
+.top_language_type_1{
+  cursor: pointer;
+  margin:0 15px;
+}
+
+.top_language_type_2:hover{
+  opacity: 0.8;
+}
+.top_language_type_2{
+  cursor: pointer;
+  margin:0 15px;
+}
+
+.top_language_type_3:hover{
+  opacity: 0.8;
+}
+.top_language_type_3{
+  cursor: pointer;
+  margin:0 15px;
+}
+
+
+
 .top_copyright{
   font-size: 0.68rem;
 }
