@@ -185,3 +185,8 @@
 .top_copyright{
   font-size: 0.68rem;
 }
+
+.slider-img {
+  height: 400px !important;
+  background: center / contain no-repeat;
+}

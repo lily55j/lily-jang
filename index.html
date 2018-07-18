@@ -9,12 +9,19 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/top.css">
 
 
     <!-- jquery-->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet"  href="css/slick.css">
+<!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet"  href="css/slick-theme.css">
+    <script src="js/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+
+
   </head>
 
   <body class="top_body">
@@ -34,8 +41,21 @@
           <div class="top_acrylic"><a href="artworks_acrylic.html">Acrylic</a></div>
           <div class="top_digital"><a href="artworks_digital.html">Digital</a></div>
           <div class="top_love"><a href="artworks_love.html">Love</a></div>
+
         </div>
-        <img class="top_visual" src="images/top_visual.png" alt="">
+        <!-- <img class="top_visual" src="images/top_visual.png" alt=""> -->
+
+        <div class="single-item">
+          <div class="slider-img" style="background-image: url(images/top_visual.png)"></div>
+          <div class="slider-img" style="background-image: url(images/top_visual2.png)"></div>
+          <div class="slider-img" style="background-image: url(images/top_visual3.jpg)"></div>
+
+          <div class="slider-img" style="background-image: url(images/top_visual.png)"></div>
+          <div class="slider-img" style="background-image: url(images/top_visual2.png)"></div>
+          <div class="slider-img" style="background-image: url(images/top_visual3.jpg)"></div>
+        </div>
+
+        
         <div class="top_other">
           <div class="top_profile"><a href="profile.html">Profile</a></div>
           <div class="top_contact"><a href="contact.html">Contact</a></div>
@@ -56,8 +76,5 @@
         Copyright © 2018 Lily Jang All Rights Reserved.
       </div>
     </bottom>
-
-
   </body>
-
 </html>
