@@ -2,23 +2,38 @@
 .top_body{
   color: grey;
   text-align: center;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 /*nav*/
 .nav{
-  border:1px solid grey;
+  /*border:1px solid grey;*/
+  border-bottom: 1.0px solid #978d8d;
   height:30px; 
   font-size: 1.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+}
+.lilyjang{
+  cursor: pointer;
   color: grey;
+  font-size: 1.5rem;
+}
+.lilyjang a{
+  text-decoration: none;
+  color: grey;
+  }
+}
+.lilyjang:hover {
+  opacity: 0.8;
 }
 .nav_ig{
   width: 26px;
   height: 26px;
   padding: 0 25px 0 0 ;
+  cursor: pointer;
 }
 .nav_menu{
   width: 26px;
@@ -37,9 +52,7 @@
 }
 
 .acrylic_images{
-  margin: 40px 10px;
-
-  border:1px solid red;
+  margin: 40px 0px;
   display: flex;
   /*flex-direction: column;*/
   justify-content: center;

@@ -2,23 +2,25 @@
 .top_body{
   color: grey;
   text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+
 }
 
 /*nav*/
 .nav{
-  border:1px solid grey;
+  /*border:1px solid grey;*/
+  border-bottom: 1.0px solid #978d8d;
   height:30px; 
   font-size: 1.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  color: grey;
 }
-
 .lilyjang{
   cursor: pointer;
   color: grey;
+  font-size: 1.5rem;
 }
 .lilyjang a{
   text-decoration: none;
@@ -26,8 +28,6 @@
 .lilyjang:hover {
   opacity: 0.8;
 }
-
-
 .nav_ig{
   width: 26px;
   height: 26px;
@@ -43,10 +43,11 @@
   opacity: 0.8;
 }
 
+
 /*main*/
 .top_main{
   margin: 40px 10px;
-  border:1px solid gray;
+  /*border:1px solid gray;*/
 
 }
 .top_artworks{
@@ -54,38 +55,36 @@
   justify-content: space-around;
   margin-bottom: 10px;
 }
-.top_visual{
- border:1px solid gray;
-  width: 80%;
-  height: auto;
+
+.top_acrylic{
+  font-size:1.9rem;
+  transform: rotate(-17deg);
+  margin: 10px 0;
+  
+}
+.top_digital{
+  font-size: 1.9rem;
+  transform: rotate(-5deg);
+}
+.top_love{
+  font-size: 1.9rem;
+  transform: rotate(13deg);
 }
 .top_other{
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
-.top_acrylic{
-  font-size:1.7rem;
-  transform: rotate(-17deg);
-  padding:0 5px;
-}
-.top_digital{
-  font-size: 1.6rem;
-  transform: rotate(-5deg);
-}
-.top_love{
-  font-size: 1.5rem;
-  transform: rotate(13deg);
-}
 .top_profile {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   padding: 0 45px;
   transform: rotate(8deg);
 }
 .top_contact{
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   transform: rotate(-10deg);
 }
+
 
 .top_acrylic > a{
   text-decoration: none;

@@ -2,23 +2,38 @@
 .top_body{
   color: grey;
   text-align: center;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 /*nav*/
 .nav{
-  border:1px solid grey;
+  /*border:1px solid grey;*/
+  border-bottom: 1.0px solid #978d8d;
   height:30px; 
   font-size: 1.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+}
+.lilyjang{
+  cursor: pointer;
   color: grey;
+  font-size: 1.5rem;
+}
+.lilyjang a{
+  text-decoration: none;
+  color: grey;
+  }
+}
+.lilyjang:hover {
+  opacity: 0.8;
 }
 .nav_ig{
   width: 26px;
   height: 26px;
   padding: 0 25px 0 0 ;
+  cursor: pointer;
 }
 .nav_menu{
   width: 26px;
@@ -29,17 +44,19 @@
   opacity: 0.8;
 }
 
+
+
 /*body*/
 .love_top{
   text-align: left;
   margin: 15px 50px;
-  font-size: 1.6rem;
+  font-size: 2.0rem;
 }
 
 .love_images{
-  margin: 40px 10px;
+  margin: 40px 0px;
 
-  border:1px solid red;
+  /*border:1px solid red;*/
   display: flex;
   /*flex-direction: column;*/
   justify-content: center;
@@ -47,7 +64,6 @@
 }
 
 .love_images_colums{
-  border:0px solid blue;
   width:40%;
   padding:20px 10px 30px 10px;
 }
@@ -58,7 +74,6 @@
 
 .artworks_title{
   text-align: left;
-  /*text-decoration: underline;*/
   margin-top: 15px;
 }
 

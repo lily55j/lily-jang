@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   $('.single-item').slick({
     fade: true,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     arrows: true
   })
 })
