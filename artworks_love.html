@@ -89,15 +89,25 @@
 
    var images = document.querySelectorAll(".love_images_colums")
    var lightbox = document.querySelector("#lightbox")
+   var main_image = document.querySelector(".lightbox_main")
+
+   lightbox.addEventListener("click", function () {
+     console.log("close")
+     lightbox.style.display = "none"
+     
    
+   
+   })
+
+
    for (let image of images) {
 
      image.addEventListener("click", function () {
-        console.log("you clicked", image)
+        console.log("you clicked", image.src)
+        var src=image.querySelector("img").src
         lightbox.style.display = "flex"
+        main_image.src=src
      })
-
-
    }
 
    //console.log("artworks", images)  
