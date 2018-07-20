@@ -38,38 +38,44 @@
     </div>
   </nav>
 
+  <div id="lightbox">
+    <div id="">
+      <img  style="height: 100px" class="lightbox_main" src="images/artworks_love/2018/artworks_love_2018_1.png" alt="" >
+    </div>
+  </div>
+
   <div class="love_top">Love</div>
   <div class="love_images">
     <div class="love_images_colums">
-      <img src="images/artworks:love/2018/artworks_love_2018_1.png" alt="" >
+      <img src="images/artworks_love/2018/artworks_love_2018_1.png" alt="" >
       <div class="artworks_title">Endless, 2018</div>
     </div>
     <div class="love_images_colums">
-      <img src="images/artworks:love/2018/artworks_love_2018_3.png" alt="" >
+      <img src="images/artworks_love/2018/artworks_love_2018_3.png" alt="" >
       <div class="artworks_title">Love is simple& complicated II, 2018</div>
     </div>
     <div class="love_images_colums">
-      <img src="images/artworks:love/2018/artworks_love_2018_4.png" alt="" >
+      <img src="images/artworks_love/2018/artworks_love_2018_4.png" alt="" >
       <div class="artworks_title">Love is simple& complicated I, 2018</div>
     </div>
     <div class="love_images_colums">
-      <img src="images/artworks:love/2018/artworks_love_2018_2.png" alt="" >
+      <img src="images/artworks_love/2018/artworks_love_2018_2.png" alt="" >
       <div class="artworks_title">I need your Love, 2018</div>
     </div>
     <div class="love_images_colums">
-      <img src="images/artworks:love/2018/artworks_love_2018_5.png" alt="" >
+      <img src="images/artworks_love/2018/artworks_love_2018_5.png" alt="" >
       <div class="artworks_title">An early summer night, 2018</div>
     </div>
     <div class="love_images_colums">
-      <img src="images/artworks:love/2018/artworks_love_2018_6.png" alt="" >
+      <img src="images/artworks_love/2018/artworks_love_2018_6.png" alt="" >
       <div class="artworks_title">L O V E II, 2018</div>
     </div>
     <div class="love_images_colums">
-      <img src="images/artworks:love/2018/artworks_love_2018_7.png" alt="" >
+      <img src="images/artworks_love/2018/artworks_love_2018_7.png" alt="" >
       <div class="artworks_title">L O V E I, 2018</div>
     </div>
     <div class="love_images_colums">
-      <img src="images/artworks:love/2018/artworks_love_2018_8.png" alt="" >
+      <img src="images/artworks_love/2018/artworks_love_2018_8.png" alt="" >
       <div class="artworks_title">Sweet dreams with LOVE, 2018</div>
     </div>
   </div>
@@ -80,5 +86,24 @@
       Copyright © 2018 Lily Jang All Rights Reserved.
     </div>
   </bottom>
+
+  <script>
+
+   var images = document.querySelectorAll(".love_images_colums")
+   var lightbox = document.querySelector("#lightbox")
+   
+   for (let image of images) {
+
+     image.addEventListener("click", function () {
+        console.log("you clicked", image)
+        lightbox.style.display = "flex"
+     })
+
+
+   }
+
+   //console.log("artworks", images)  
+
+  </script>
 
 </body>
