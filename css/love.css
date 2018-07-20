@@ -89,9 +89,8 @@
   display: none;
 }
 
-.lightbox_main　{
-  height: 80px !important;
-  width: 100px !important;
+img.lightbox_main {
+  width: 80%;
 }
 
 /*bottom*/
@@ -101,3 +100,4 @@
 .top_copyright{
   font-size: 0.68rem;
 }
+
