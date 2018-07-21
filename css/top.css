@@ -8,7 +8,6 @@
 
 /*nav*/
 .nav{
-  /*border:1px solid grey;*/
   border-bottom: 1.0px solid #978d8d;
   height:30px; 
   font-size: 1.2rem;
@@ -33,6 +32,9 @@
   height: 26px;
   padding: 0 25px 0 0 ;
   cursor: pointer;
+}
+.nav_icons >a{
+  text-decoration: none;
 }
 .nav_menu{
   width: 26px;
