@@ -73,6 +73,14 @@
   margin-top: 15px;
 }
 
+/*bottom*/
+.top_bottom{
+  margin: 40px;
+}
+.top_copyright{
+  font-size: 0.68rem;
+}
+
 /*javascript*/
 #lightbox {
   height: 100vh;
@@ -87,14 +95,5 @@
 }
 img.lightbox_main {
   width: 47%;
-}
-
-
-/*bottom*/
-.top_bottom{
-  margin: 40px;
-}
-.top_copyright{
-  font-size: 0.68rem;
 }
 
