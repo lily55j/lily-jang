@@ -44,36 +44,36 @@
 
   <div class="love_top">Love</div>
   <div class="love_images">
-    <div class="love_images_colums">
-      <img src="images/artworks_love/2018/artworks_love_2018_1.png" alt="" >
+    <div class="love_images_column">
+      <img src="images/artworks_love/2018/artworks_love_2018_1.png" alt="Endless, 2018" >
       <div class="artworks_title">Endless, 2018</div>
     </div>
-    <div class="love_images_colums">
-      <img src="images/artworks_love/2018/artworks_love_2018_3.png" alt="" >
+    <div class="love_images_column">
+      <img src="images/artworks_love/2018/artworks_love_2018_3.png" alt="Love is simple& complicated II, 2018" >
       <div class="artworks_title">Love is simple& complicated II, 2018</div>
     </div>
-    <div class="love_images_colums">
-      <img src="images/artworks_love/2018/artworks_love_2018_4.png" alt="" >
+    <div class="love_images_column">
+      <img src="images/artworks_love/2018/artworks_love_2018_4.png" alt="Love is simple& complicated I, 2018" >
       <div class="artworks_title">Love is simple& complicated I, 2018</div>
     </div>
-    <div class="love_images_colums">
-      <img src="images/artworks_love/2018/artworks_love_2018_2.png" alt="" >
+    <div class="love_images_column">
+      <img src="images/artworks_love/2018/artworks_love_2018_2.png" alt="I need your Love, 2018" >
       <div class="artworks_title">I need your Love, 2018</div>
     </div>
-    <div class="love_images_colums">
-      <img src="images/artworks_love/2018/artworks_love_2018_5.png" alt="" >
+    <div class="love_images_column">
+      <img src="images/artworks_love/2018/artworks_love_2018_5.png" alt="An early summer night, 2018" >
       <div class="artworks_title">An early summer night, 2018</div>
     </div>
-    <div class="love_images_colums">
-      <img src="images/artworks_love/2018/artworks_love_2018_6.png" alt="" >
+    <div class="love_images_column">
+      <img src="images/artworks_love/2018/artworks_love_2018_6.png" alt="L O V E II, 2018" >
       <div class="artworks_title">L O V E II, 2018</div>
     </div>
-    <div class="love_images_colums">
-      <img src="images/artworks_love/2018/artworks_love_2018_7.png" alt="" >
+    <div class="love_images_column">
+      <img src="images/artworks_love/2018/artworks_love_2018_7.png" alt="L O V E I, 2018" >
       <div class="artworks_title">L O V E I, 2018</div>
     </div>
-    <div class="love_images_colums">
-      <img src="images/artworks_love/2018/artworks_love_2018_8.png" alt="" >
+    <div class="love_images_column">
+      <img src="images/artworks_love/2018/artworks_love_2018_8.png" alt="Sweet dreams with LOVE, 2018" >
       <div class="artworks_title">Sweet dreams with LOVE, 2018</div>
     </div>
   </div>
@@ -85,9 +85,10 @@
     </div>
   </bottom>
 
-  <script>
 
-   var images = document.querySelectorAll(".love_images_colums")
+  <!--javascript-->
+  <script>
+   var images = document.querySelectorAll(".love_images_column")
    var lightbox = document.querySelector("#lightbox")
    var main_image = document.querySelector(".lightbox_main")
 
@@ -95,10 +96,7 @@
      console.log("close")
      lightbox.style.display = "none"
   })
-
-
-   for (let image of images) {
-
+  for (let image of images) {
      image.addEventListener("click", function () {
         console.log("you clicked", image.src)
         var src=image.querySelector("img").src
@@ -106,9 +104,7 @@
         main_image.src=src
      })
    }
+</script>
 
-   //console.log("artworks", images)  
-
-  </script>
 
 </body>
