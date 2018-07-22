@@ -172,5 +172,19 @@
 
 .slider-img {
   height: 400px !important;
+  display: block !important;
   background: center / contain no-repeat;
+}
+
+.slider-img_sp{
+  display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .slider-img{
+    display: none !important;
+  }
+  .slider-img_sp{
+    display: block !important;
+  }
 }
