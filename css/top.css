@@ -75,13 +75,13 @@
 
 @media screen and (max-width: 768px) {
   .top_acrylic {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .top_digital {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }  
   .top_love {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }  
 }
 
@@ -109,10 +109,10 @@
   }
 
   .top_profile {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   } 
   .top_contact {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }   
 }
 
@@ -170,21 +170,53 @@
   font-size: 0.68rem;
 }
 
-.slider-img {
-  height: 400px !important;
-  display: block !important;
-  background: center / contain no-repeat;
+
+.container_sp  {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  width: 100%;
 }
 
+.container_pc {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+  width: 100%;
+}
+
+.container_sp{
+  display: none;
+}
+
+.slider-img {
+  position: absolute;
+  background: center;
+  background: center / contain no-repeat;
+  width: 50vw;
+  height: 100%;
+}
 .slider-img_sp{
-  display: none !important;
+  position: absolute;
+  display: none;
+}
+.image0 {
+  display: block;
 }
 
 @media screen and (max-width: 768px) {
-  .slider-img{
-    display: none !important;
+  .container_pc {
+    display: none;
   }
-  .slider-img_sp{
-    display: block !important;
+  .container_sp{
+    display: block;
+  }
+  .slider-img_sp {
+    background: center;
+    background: center / contain no-repeat;
+    width: 100%;
+    height: 100%;
   }
 }
