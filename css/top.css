@@ -74,8 +74,9 @@
 }
 .top_other{
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  justify-content: space-around;
+  /*margin-top: 20px;*/
+  margin: 30px 200px;;
 }
 .top_profile {
   font-size: 1.7rem;

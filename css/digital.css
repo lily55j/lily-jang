@@ -79,8 +79,8 @@
 
 .artworks_title{
   text-align: center;
-  /*text-decoration: underline;*/
   margin-top: 15px;
+  text-transform: none;
 }
 
 /*bottom*/
@@ -96,13 +96,22 @@
   height: 100vh;
   width: 100vw;
   top: 0px;
-  background: rgb(245, 243, 243, 0.8);
+  background-color: #fff;
   position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
   display: none;
+  z-index: 1;
 }
-img.lightbox_main {
-  width: 70%;
+
+.lightbox_main {
+  width: 50%;
 }
+
+@media screen and (max-width: 768px) {
+  .lightbox_main {
+    width: 95%;
+  } 
+}
+

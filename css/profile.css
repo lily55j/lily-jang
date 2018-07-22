@@ -3,6 +3,7 @@
   color: grey;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
 }
 
 /*nav*/
@@ -50,9 +51,9 @@
 
 /*body*/
 .profile_top{
-  text-align: left;
-  margin: 15px 50px;
-  font-size: 1.6rem;
+  text-align: center;
+  margin: 30px 50px;
+  font-size: 2.0rem;
 }
 
 .profile_image{
@@ -62,7 +63,13 @@
 .profile_text1{
   /*border:2px solid palevioletred;*/
   margin: 30px 35px 100px 35px;
-
+  text-transform: none;
+}
+.profile_text2{
+  text-transform: none;
+}
+.profile_text3{
+  text-transform: none;
 }
 
 
