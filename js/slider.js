@@ -25,11 +25,11 @@ document.addEventListener("DOMContentLoaded", function() {
         count = 0
       }
 
-      for (let image of images){
+      for (let image of images) {
         image.style.display = "none"
       }
 
-      console.log(isSp + ".image" + count)
+      // console.log(isSp + ".image" + count)
       var image = document.querySelector(isSp + ".image" + count)
         //console.log("image" , image)
         image.style.display = "block"
@@ -39,3 +39,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 })
+
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+
+
