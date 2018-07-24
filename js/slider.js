@@ -38,10 +38,18 @@ document.addEventListener("DOMContentLoaded", function() {
   }, speed)
 
 
+  window_menu.addEventListener("click", function () {
+  })
+
 })
 
 function toggle(el) {
+    var window_menu = document.querySelector("#window_menu")
+    window_menu.classList.toggle("closed");
+
     el.classList.toggle("change");
+
+
 }
 
 
