@@ -82,7 +82,7 @@
 /*menu open*/
 #window_menu{
   background-color: white;
-  border:1px solid gray;
+  /*border:1px solid gray;*/
   color: gray;
   width: 100%;
   max-height: 570px;
@@ -99,7 +99,7 @@
   line-height: 2;
 }
 .menu_artworks a{
-  font-size: 1.30rem;
+  font-size: 1.40rem;
 } 
 
 /**/
