@@ -16,10 +16,25 @@
   align-items: center;
   padding: 20px;
 }
+
+.nav_top{
+  display: flex;
+  margin: 5px 30px 0 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav_top{
+    display: flex;
+    margin: 5px 5px 0 5px;
+  }
+}
+
+
 .lilyjang{
   cursor: pointer;
   color: grey;
   font-size: 1.5rem;
+  margin: 30px;
 }
 .lilyjang a{
   text-decoration: none;
@@ -30,7 +45,7 @@
 .nav_ig{
   width: 26px;
   height: 26px;
-  padding: 2px 0 0 100px;
+  margin:0 20px;
   cursor: pointer;
 }
 .nav_icons >a{
@@ -45,6 +60,7 @@
 .container {
   display: inline-block;
   cursor: pointer;
+  margin: 5px;
 }
 .bar1, .bar2, .bar3 {
   width: 30px;
