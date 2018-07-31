@@ -78,7 +78,7 @@
 /*menu open*/
 #window_menu{
   background-color: white;  
-  border:1px solid gray;
+  /*border:1px solid gray;*/
   color: gray;
   width: 100%;
   max-height: 650px;
