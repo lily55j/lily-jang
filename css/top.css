@@ -16,6 +16,16 @@
   align-items: center;
   padding: 20px;
 }
+/*.nav_top{
+  display: flex;
+  margin: 5px 30px 0 30px;
+}*/
+@media screen and (max-width: 768px) {
+  .nav_top{
+    display: flex;
+    margin: 5px 5px 0 5px;
+  }
+}
 .lilyjang{
   cursor: pointer;
   color: grey;
@@ -47,6 +57,7 @@
 .nav_ig:hover {
   opacity: 0.8;
 }
+
 /*--nav--*/
 
 /*menu bar*/
@@ -81,7 +92,7 @@
   max-height: 650px;
   transition: opacity .25s ease-in;
   position: absolute;
-  z-index: 2;
+  /*z-index: 2;*/
   margin: 0 auto;
 }
 .menu_text, a{
@@ -166,7 +177,7 @@
 }
 .top_category {
   cursor: pointer;
-  z-index: 3;
+
 }
 
 /*top artworks*/
@@ -177,29 +188,29 @@
 }
 
 .top_acrylic{
-  font-size:1.9rem;
+  font-size:1.7rem;
   transform: rotate(-17deg);
   margin: 10px 0;
   
 }
 .top_digital{
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   transform: rotate(-5deg);
 }
 .top_love{
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   transform: rotate(13deg);
 }
 
 @media screen and (max-width: 768px) {
   .top_acrylic {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .top_digital {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }  
   .top_love {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }  
 }
 
@@ -211,12 +222,12 @@
   margin: 30px 200px;
 }
 .top_profile {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   padding: 0 45px;
   transform: rotate(8deg);
 }
 .top_contact{
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   transform: rotate(-10deg);
 }
 
@@ -227,10 +238,10 @@
   }
 
   .top_profile {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   } 
   .top_contact {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }   
 }
 
