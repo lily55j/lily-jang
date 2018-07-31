@@ -5,6 +5,7 @@
   text-transform: uppercase;
 }
 
+/*nav*/
 .nav{
   border-bottom: 1.0px solid #978d8d;
   height:30px; 
@@ -18,10 +19,12 @@
   cursor: pointer;
   color: grey;
   font-size: 1.5rem;
+  text-decoration: none;
 }
 .lilyjang a{
   text-decoration: none;
   color: grey;
+  }
 }
 .lilyjang:hover {
   opacity: 0.8;

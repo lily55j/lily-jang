@@ -16,24 +16,16 @@
   align-items: center;
   padding: 20px;
 }
-.nav_top{
-  display: flex;
-  margin: 5px 30px 0 30px;
-}
-@media screen and (max-width: 768px) {
-  .nav_top{
-    display: flex;
-    margin: 5px 5px 0 5px;
-  }
-}
 .lilyjang{
   cursor: pointer;
   color: grey;
   font-size: 1.5rem;
-  margin: 30px;
+  text-decoration: none;
 }
 .lilyjang a{
   text-decoration: none;
+  color: grey;
+  }
 }
 .lilyjang:hover {
   opacity: 0.8;
@@ -41,11 +33,16 @@
 .nav_ig{
   width: 26px;
   height: 26px;
-  margin:0 20px;
+  padding: 0 25px 0 0 ;
   cursor: pointer;
 }
 .nav_icons >a{
   text-decoration: none;
+}
+.nav_menu{
+  width: 26px;
+  height: 20px;
+  padding: 0 15px 3px 0;
 }
 .nav_ig:hover {
   opacity: 0.8;

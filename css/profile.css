@@ -8,7 +8,6 @@
 
 /*nav*/
 .nav{
-  /*border:1px solid grey;*/
   border-bottom: 1.0px solid #978d8d;
   height:30px; 
   font-size: 1.2rem;
@@ -21,6 +20,7 @@
   cursor: pointer;
   color: grey;
   font-size: 1.5rem;
+  text-decoration: none;
 }
 .lilyjang a{
   text-decoration: none;
@@ -62,14 +62,17 @@
 
 .profile_text1{
   /*border:2px solid palevioletred;*/
-  margin: 30px 35px 100px 35px;
+  margin: 30px 35px 50px 35px;
   text-transform: none;
+  line-height: 1.8;
 }
 .profile_text2{
   text-transform: none;
+  font-size: 1.2rem;
 }
 .profile_text3{
   text-transform: none;
+  line-height: 1.2;
 }
 
 
