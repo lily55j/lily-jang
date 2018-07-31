@@ -16,20 +16,16 @@
   align-items: center;
   padding: 20px;
 }
-
 .nav_top{
   display: flex;
   margin: 5px 30px 0 30px;
 }
-
 @media screen and (max-width: 768px) {
   .nav_top{
     display: flex;
     margin: 5px 5px 0 5px;
   }
 }
-
-
 .lilyjang{
   cursor: pointer;
   color: grey;
@@ -81,11 +77,11 @@
 
 /*menu open*/
 #window_menu{
-  background-color: white;
-  /*border:1px solid gray;*/
+  background-color: white;  
+  border:1px solid gray;
   color: gray;
   width: 100%;
-  max-height: 570px;
+  max-height: 650px;
   transition: opacity .25s ease-in;
   position: absolute;
   z-index: 1;
@@ -96,13 +92,12 @@
   color: grey;
   font-size: 1.75rem;
   margin-top: 20px; 
-  line-height: 2;
+  line-height: 2.1;
 }
 .menu_artworks a{
   font-size: 1.40rem;
 } 
 
-/**/
 .menu_acrylic{
   position: relative;
   display: flex;
@@ -129,7 +124,6 @@
   text-align: center;
   top: -10px;
 }
-
 .menu_love{
   position: relative;
   display: flex;
@@ -146,37 +140,36 @@
   margin-right: 20px;
 }
 
-
-
-/**/
 .menu_profile{
   transform: rotate(8deg);
 }
 .menu_contact{
   transform: rotate(-10deg);
 }
-
-
-
-
 .closed {
   opacity: 0;
   transition: opacity .25s ease-in;
   /* display: none; */
 }
-
-/**/
-
+/*menu open*/
 
 
-/*main*/
 
+/*main contents*/
 .top_main{
   margin: 40px 10px;
   /*border:1px solid gray;*/
 }
-
-
+.top_category > a{
+  text-decoration: none;
+  color: grey;
+}
+.top_category:hover {
+  opacity: 0.8;
+}
+.top_category {
+  cursor: pointer;
+}
 
 /*top artworks*/
 .top_artworks{
@@ -243,16 +236,7 @@
   }   
 }
 
-.top_category > a{
-  text-decoration: none;
-  color: grey;
-}
-.top_category:hover {
-  opacity: 0.8;
-}
-.top_category {
-  cursor: pointer;
-}
+
 
 /*bottom*/
 .top_bottom{
@@ -322,7 +306,7 @@
   position: absolute;
   background: center;
   background: center / contain no-repeat;
-  width: 100vw;
+  width: 110vw;
   height: 100%;
 }
 .slider-img_sp{
