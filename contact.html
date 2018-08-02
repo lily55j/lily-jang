@@ -26,6 +26,9 @@
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script src="js/contact.js"></script>
+  
   </head>
 
 
@@ -43,7 +46,7 @@
 
   <h2 class="contact_top">Contact</h2>
 
-  <form class="form" action="confirmation.php" method="post" autocomplete="on">
+  <form class="form" autocomplete="on">
 
     <!-- name -->
     <div class="form__field">
@@ -52,7 +55,7 @@
           <span class="required">*</span>
         </label>
       </div>
-      <input type="text" class="box" name="name" id="name" required placeholder="Full name" />
+      <input  value="lily" type="text" class="box" name="name" id="name" required placeholder="Full name" />
     </div>
 
     <!-- email -->
@@ -62,7 +65,7 @@
           <span class="required">*</span>
         </label>
       </div>
-      <input type="email" class="box" name="email" id="email" required placeholder="@" />
+      <input value="leejeong.jang@gmail.com" type="email" class="box" name="email" id="email" required placeholder="@" />
     </div>
 
     <!-- purpose -->
@@ -71,7 +74,7 @@
         <label for="purpose" class="form_text">Purpose</label>
       </div>
       <select id="purpose" class="box" name="purpose">
-        <option value="australia">Collaboration</option>
+        <option selected value="australia">Collaboration</option>
         <option value="canada">Purchase an art</option>
         <option value="usa">Other</option>
       </select>
@@ -84,7 +87,7 @@
           <span class="required">*</span>
         </label>
       </div>
-      <input type="text" class="box" name="subject" id="subject" required placeholder="" />
+      <input value="hi" type="text" class="box" name="subject" id="subject" required placeholder="" />
     </div>
 
     <!-- message -->
@@ -95,15 +98,16 @@
         </label>
       </div>
 
-      <textarea name="message" class="message" id="message" required="required" rows="10">
-        </textarea>
+      <textarea  name="message" class="message" id="message" required="required" rows="10">
+      kkkkk  
+      </textarea>
 
     </div>
 
     <div class="form__field">
       <div class="form__name">
         <div class="button_rapper">
-          <button class="button" type="submit" onclick="check_contactform()">Confirm</button>
+          <button class="button" type="submit" onclick="sendemail(event)" id="submit">Confirm</button>
         </div>
       </div>
     </div>

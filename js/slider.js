@@ -48,8 +48,6 @@ function toggle(el) {
     window_menu.classList.toggle("closed");
 
     el.classList.toggle("change");
-
-
 }
 
 
