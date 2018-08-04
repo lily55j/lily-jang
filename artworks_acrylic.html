@@ -12,33 +12,74 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/acrylic.css">
+
+  <!-- jquery-->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet"  href="css/slick.css">
+
+  <!--Remove this to hide buttons -->
+  <link rel="stylesheet"  href="css/slick-theme.css">
+  
+  <script src="js/slick.min.js"></script>
+  <script src="js/slider.js"></script>
   <!-- font-->
-    <!--Cormorant
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">-->
-    <!--Roboto
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">-->
-    <!--Source Serif Pro
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Source+Serif+Pro" rel="stylesheet">-->
-    <!--lora
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Lora|Source+Serif+Pro" rel="stylesheet">-->
-    <!--Libre-->
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+  <!--Cormorant
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">-->
+  <!--Roboto
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">-->
+  <!--Source Serif Pro
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Source+Serif+Pro" rel="stylesheet">-->
+  <!--lora
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Lora|Source+Serif+Pro" rel="stylesheet">-->
+  <!--Libre-->
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
 </head>
 
 <body class="top_body">
-
   <nav class="nav">
     <h1 class="lilyjang"><a href="index.html">Lily Jang</a></h1> 
-    <div class="nav_icons">
-      <a href="https://www.instagram.com/lily_j_drawing/" target="_blank">
-        <img class="nav_ig" src="images/ig-color.png" alt="instagram_banner">
-      </a>
+    <div class="nav_top">
+       <div class="nav_icons">
+         <a href="https://www.instagram.com/lily_j_drawing/" target="_blank">
+           <img class="nav_ig" src="images/ig-color.png" alt="instagram_banner">
+         </a>
+       </div>
+       <div class="container" onclick="toggle(this)">
+         <div class="bar1"></div>
+         <div class="bar2"></div>
+         <div class="bar3"></div>
+       </div>
+     </div>
+   </nav>
 
+   <!--menu open-->
+   <section id="window_menu" class="closed">
+    <div class="menu_text">Artworks</div>
+
+    <div class="menu_artworks menu_acrylic">
+      <p class="menu_acrylic_text"><a href="artworks_acrylic.html">Acrylic</a></p>
+      <img class="line_blue" src="images/line_blue.png" alt="line">
     </div>
-  </nav>
+
+    <div class="menu_artworks menu_digital">
+      <p class="menu_digital_text"><a href="artworks_digital.html">Digital</a></p>
+      <img class="line_yellow" src="images/line_yellow.png" alt="line">
+    </div>
+    
+    <div class="menu_artworks menu_love">
+      <p class="menu_love_text"><a href="artworks_love.html">Love</a></p>
+      <img class="line_pink" src="images/line_pink.png" alt="line">
+    </div>
+    
+    <div class="menu_text menu_profile"><a href="profile.html">Profile</a></div>
+    <div class="menu_text menu_contact"><a href="contact.html">Contact</a></div>
+  </section>
+  <!--menu open-->
 
   <div id="lightbox">
     <img class="lightbox_main" src="images/artworks_acrylic/2018/artworks_acrylic_2018_1.png" alt="" >
@@ -95,7 +136,6 @@
       <div class="artworks_title">Spring is coming, 2018</div>
     </div>
   </div>
-
 
   <footer class="top_bottom">
     <div class="top_copyright">

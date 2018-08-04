@@ -57,6 +57,9 @@
 .nav_ig:hover {
   opacity: 0.8;
 }
+.nav_top{
+  display: flex;
+}
 
 /*--nav--*/
 

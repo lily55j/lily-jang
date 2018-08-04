@@ -1,5 +1,3 @@
-
-
 function sendemail(event) {
   event.preventDefault()
 

@@ -12,42 +12,83 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/contact.css">
+
+  <!-- jquery-->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet"  href="css/slick.css">
+
+  <!--Remove this to hide buttons -->
+  <link rel="stylesheet"  href="css/slick-theme.css">
+
+  <script src="js/slick.min.js"></script>
+  <script src="js/slider.js"></script>
+   
  <!-- font-->
-    <!--Cormorant
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">-->
-    <!--Roboto
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">-->
-    <!--Source Serif Pro
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Source+Serif+Pro" rel="stylesheet">-->
-    <!--lora
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Lora|Source+Serif+Pro" rel="stylesheet">-->
-    <!--Libre-->
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-  <script src="js/contact.js"></script>
-  
+  <!--Cormorant
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">-->
+  <!--Roboto
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">-->
+  <!--Source Serif Pro
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Source+Serif+Pro" rel="stylesheet">-->
+  <!--lora
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Lora|Source+Serif+Pro" rel="stylesheet">-->
+  <!--Libre-->
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="js/contact.js"></script>
+
   </head>
 
 
 <body class="top_body">
+  <body class="top_body">
+    <nav class="nav">
+     <h1 class="lilyjang"><a href="index.html">Lily Jang</a></h1> 
+     <div class="nav_top">
+        <div class="nav_icons">
+          <a href="https://www.instagram.com/lily_j_drawing/" target="_blank">
+            <img class="nav_ig" src="images/ig-color.png" alt="instagram_banner">
+          </a>
+        </div>
+        <div class="container" onclick="toggle(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+    </nav>
 
-  <nav class="nav">
-    <h1 class="lilyjang"><a href="index.html">Lily Jang</a></h1> 
-    <div class="nav_icons">
-      <a href="https://www.instagram.com/lily_j_drawing/" target="_blank">
-        <img class="nav_ig" src="images/ig-color.png" alt="instagram_banner">
-      </a>
-      <img class="nav_menu" src="images/menu.png" alt="menu_bar">
+  <!--menu open-->
+   <section id="window_menu" class="closed">
+    <div class="menu_text">Artworks</div>
+
+    <div class="menu_artworks menu_acrylic">
+      <p class="menu_acrylic_text"><a href="artworks_acrylic.html">Acrylic</a></p>
+      <img class="line_blue" src="images/line_blue.png" alt="line">
     </div>
-  </nav>
+
+    <div class="menu_artworks menu_digital">
+      <p class="menu_digital_text"><a href="artworks_digital.html">Digital</a></p>
+      <img class="line_yellow" src="images/line_yellow.png" alt="line">
+    </div>
+    
+    <div class="menu_artworks menu_love">
+      <p class="menu_love_text"><a href="artworks_love.html">Love</a></p>
+      <img class="line_pink" src="images/line_pink.png" alt="line">
+    </div>
+    
+    <div class="menu_text menu_profile"><a href="profile.html">Profile</a></div>
+    <div class="menu_text menu_contact"><a href="contact.html">Contact</a></div>
+  </section>
+  <!--menu open-->
 
   <h2 class="contact_top">Contact</h2>
-
   <form class="form" autocomplete="on">
-
     <!-- name -->
     <div class="form__field">
       <div class="form__name">
@@ -55,7 +96,7 @@
           <span class="required">*</span>
         </label>
       </div>
-      <input  value="lily" type="text" class="box" name="name" id="name" required placeholder="Full name" />
+      <input  value="" type="text" class="box" name="name" id="name" required placeholder="Full name" />
     </div>
 
     <!-- email -->
@@ -65,7 +106,7 @@
           <span class="required">*</span>
         </label>
       </div>
-      <input value="leejeong.jang@gmail.com" type="email" class="box" name="email" id="email" required placeholder="@" />
+      <input value="" type="email" class="box" name="email" id="email" required placeholder="@" />
     </div>
 
     <!-- purpose -->
@@ -87,7 +128,7 @@
           <span class="required">*</span>
         </label>
       </div>
-      <input value="hi" type="text" class="box" name="subject" id="subject" required placeholder="" />
+      <input value="" type="text" class="box" name="subject" id="subject" required placeholder="" />
     </div>
 
     <!-- message -->
@@ -98,9 +139,12 @@
         </label>
       </div>
 
-      <textarea  name="message" class="message" id="message" required="required" rows="10">
-      kkkkk  
-      </textarea>
+      <textarea  
+      name="message" 
+      class="message" 
+      id="message" 
+      required="required" 
+      rows="10"></textarea>
 
     </div>
 
@@ -120,6 +164,4 @@
   </footer>
 
 </body>
-
-
 </html>

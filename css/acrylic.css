@@ -16,10 +16,16 @@
   align-items: center;
   padding: 20px;
 }
+@media screen and (max-width: 768px) {
+  .nav_top{
+    display: flex;
+    margin: 5px 5px 0 5px;
+  }
+}
 .lilyjang{
   cursor: pointer;
   color: grey;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-decoration: none;
 }
 .lilyjang a{
@@ -47,6 +53,112 @@
 .nav_ig:hover {
   opacity: 0.8;
 }
+.nav_top{
+  display: flex;
+}
+
+/*menu bar*/
+.container {
+  display: inline-block;
+  cursor: pointer;
+  margin: 5px;
+}
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 1.0px;
+  background-color: grey;
+  margin: 9px 0;
+  transition: 0.3s;
+}
+.change .bar1 {
+  transform: rotate(-45deg) translate(-7px, 7px);
+}
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-7px, -7px);
+}
+/*--menu bar--*/
+
+/*menu open*/
+#window_menu{
+  background-color: white;  
+  /*border:1px solid gray;*/
+  z-index: 1;
+  color: gray;
+  width: 100%;
+  max-height: 650px;
+  transition: opacity .25s ease-in;
+  position: absolute;
+  margin: 0 auto;
+}
+.menu_text, a{
+  text-decoration: none;
+  color: grey;
+  font-size: 1.75rem;
+  margin-top: 20px; 
+  line-height: 2.1;
+}
+.menu_artworks a{
+  font-size: 1.40rem;
+} 
+
+.menu_acrylic{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top:20px; 
+}
+.menu_acrylic_text{
+  position: absolute;
+  transform: rotate(-17deg);
+  font-size: 1.3rem;
+  text-align: center;
+  top: -10px;
+}
+
+.menu_digital{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.menu_digital_text{
+  position: absolute;
+  transform: rotate(-5deg);
+  font-size: 1.3rem;
+  text-align: center;
+  top: -10px;
+}
+.menu_love{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  transform: rotate(13deg);
+}
+.menu_love_text{
+  position: absolute;
+  font-size: 1.3rem;
+  text-align: center;
+  top: 5px;
+}
+.line_pink{
+  margin-right: 20px;
+}
+
+.menu_profile{
+  transform: rotate(8deg);
+}
+.menu_contact{
+  transform: rotate(-10deg);
+}
+.closed {
+  opacity: 0;
+  z-index: 0 !important;
+  transition: opacity .25s ease-in;
+  /* display: none; */
+}
+/*menu open*/
+
 
 /*body*/
 .acrylic_top{
