@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   var count = 0
-  var speed = 2500
+  var speed = 3000
 
   setInterval(function() {
       count = count + 1 
